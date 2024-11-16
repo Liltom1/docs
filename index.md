@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 知识类
-      link: /markdown-examples
+      link: ../TypeScript/TypeScript 类型 （第一篇）
     - theme: alt
       text: 生活类
       link: /api-examples
