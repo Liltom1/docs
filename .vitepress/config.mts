@@ -48,4 +48,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
+  outDir:"docs"
 })
