@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 知识类
-      link: ../TypeScript/TypeScript 类型 （第一篇）
+      link: /TypeScript/TypeScript 类型 （第一篇）
     - theme: alt
       text: 生活类
       link: /api-examples
@@ -24,4 +24,3 @@ features:
   - title: 有趣的视频知识输入
     details: 一些视频的引发的感想的记录
 ---
-

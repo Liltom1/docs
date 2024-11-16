@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'TypeScipt', link: '../TypeScript/TypeScript 类型 （第一篇）' }
+      { text: 'TypeScript', link: '/TypeScript/TypeScript 类型 （第一篇）' }
     ],
     //页脚文字
     docFooter:{
@@ -34,7 +34,7 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: 'TypeScipt',
+        text: 'TypeScript',
         items: [
           { text: 'TypeScript 类型 （第一篇）', link: '../TypeScript/TypeScript 类型 （第一篇）' },
           { text: 'TypeScript 类型（第二篇）', link: '../TypeScript/TypeScript 类型（第二篇）' },
@@ -49,5 +49,10 @@ export default defineConfig({
     ]
   },
   outDir:"docs",
-  base:'/docs/'
+  // rewrites: {
+  //   '../TypeScript/TypeScript 类型 （第一篇）': 'TypeScript 类型 （第一篇）.md',
+  // }
+
+  base:'/docs/',
+  // srcDir:''
 })
