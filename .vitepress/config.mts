@@ -46,6 +46,8 @@ export default defineConfig({
           { text: 'TypeScript(装饰器)', link: '../TypeScript/TypeScript(装饰器)' },
           { text: 'weakMap,weakSet,set,map', link: '../TypeScript/weakMap,weakSet,set,map' },
           { text: '封装LocalStorage并支持过期时间', link: '../TypeScript/封装LocalStorage并支持过期时间' },
+          { text: 'Proxy,Reflect', link: '../TypeScript/Proxy,Reflect' },
+          { text: '泛型工具1', link: '../TypeScript/泛型工具1' },
         ]
       }
     ],
