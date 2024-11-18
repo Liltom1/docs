@@ -12,12 +12,12 @@ hero:
       link: /TypeScript/TypeScript 类型 （第一篇）
     - theme: alt
       text: 生活类
-      link: /api-examples
+      # link: /api-examples
 
 features:
   - title: TypeScript学习笔记
     details: 有关于TypeScript的基础知识与用法
-    link: https://carlosme.fun
+    link: /TypeScript/TypeScript 类型 （第一篇）
     linkText: 查看详情
   - title: Vue3
     details: Vue3的学习记录

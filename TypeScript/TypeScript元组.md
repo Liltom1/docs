@@ -3,8 +3,8 @@ prev:
   text: 'TypeScript 类型（第三篇）'
   link: '../TypeScript/TypeScript类型（第三篇）'
 next:
-  text: 'TypeScript元组'
-  link: '../TypeScript/TypeScript元组'
+  text: 'TypeScript 泛型'
+  link: '../TypeScript/TypeScript 泛型'
 ---
 #### TypeScript元组
 
