@@ -3,8 +3,8 @@ next:
   text: '对象与类的混入'
   link: '../TypeScript/混入'
 prev:
-  text: 'TypeScript 泛型'
-  link: '../TypeScript/TypeScript 泛型'
+  text: 'Symbol与泛型'
+  link: '../TypeScript/Symbol与泛型'
 ---
 #### namespace(命名空间)
 

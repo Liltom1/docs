@@ -1,14 +1,14 @@
 ---
 prev:
-  text: 'TypeScript(装饰器)'
-  link: '../TypeScript/TypeScript(装饰器)'
+  text: '装饰器'
+  link: '../TypeScript/装饰器'
 next:
-  text: '封装LocalStorage并支持过期时间'
-  link: '../TypeScript/封装LocalStorage并支持过期时间'
+  text: '封装LocalStorage'
+  link: '../TypeScript/封装LocalStorage'
 ---
-#### ```weakMap```，```weakSet```，set，map
+# ```weakMap```，```weakSet```，set，map
 
-- set
+#### set
 
 ```ts
 //1.set(集合，和数组相似)
@@ -24,7 +24,7 @@ console.log(set1.size,'set1')//长度
 
 ```
 
-- map
+#### map
 
 类似对象，但是键可以是任意类型包括对象
 

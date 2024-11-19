@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 知识类
-      link: /TypeScript/TypeScript 类型 （第一篇）
+      link: /TypeScript/基础类型
     - theme: alt
       text: 生活类
       # link: /api-examples
@@ -17,7 +17,7 @@ hero:
 features:
   - title: TypeScript学习笔记
     details: 有关于TypeScript的基础知识与用法
-    link: /TypeScript/TypeScript 类型 （第一篇）
+    link: /TypeScript/基础类型
     linkText: 查看详情
   - title: Vue3
     details: Vue3的学习记录

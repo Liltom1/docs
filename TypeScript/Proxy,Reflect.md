@@ -3,8 +3,8 @@ next:
   text: '泛型工具1'
   link: '../TypeScript/泛型工具1'
 prev:
-  text: '封装LocalStorage并支持过期时间'
-  link: '../TypeScript/封装LocalStorage并支持过期时间'
+  text: '封装LocalStorage'
+  link: '../TypeScript/封装LocalStorage'
 ---
 #### Proxy Reflect
 
