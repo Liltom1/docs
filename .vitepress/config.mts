@@ -64,8 +64,8 @@ export default defineConfig({
         text: 'Vue3',
         collapsed: false,
         items: [
-          { text: '基础类型', link: '../TypeScript/基础类型' },
-          { text: '引用类型', link: '../TypeScript/引用类型' },
+          { text: 'ref,Ref,reactive', link: '../Vue3/ref,Ref,reactive' },
+          { text: 'Reactive', link: '../Vue3/Reactive' },
         ]
       }
     ],
