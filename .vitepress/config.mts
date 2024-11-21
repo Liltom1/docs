@@ -66,6 +66,7 @@ export default defineConfig({
         items: [
           { text: 'ref,Ref,reactive', link: '../Vue3/ref,Ref,reactive' },
           { text: 'Reactive', link: '../Vue3/Reactive' },
+          { text: 'Watch', link: '../Vue3/watch' },
         ]
       }
     ],
