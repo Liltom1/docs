@@ -67,6 +67,7 @@ export default defineConfig({
           { text: 'ref,Ref,reactive', link: '../Vue3/ref,Ref,reactive' },
           { text: 'Reactive', link: '../Vue3/Reactive' },
           { text: 'Watch', link: '../Vue3/watch' },
+          { text: '父子间的传值', link: '../Vue3/父子间的传值' },
         ]
       }
     ],
