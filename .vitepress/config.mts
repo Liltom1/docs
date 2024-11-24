@@ -66,8 +66,16 @@ export default defineConfig({
         items: [
           { text: 'ref,Ref,reactive', link: '../Vue3/ref,Ref,reactive' },
           { text: 'Reactive', link: '../Vue3/Reactive' },
+          { text: 'vue3响应式原理', link: '../Vue3/vue3响应式原理' },
+          { text: 'computed', link: '../Vue3/computed' },
           { text: 'Watch', link: '../Vue3/watch' },
+          { text: 'vue生命周期', link: '../Vue3/vue生命周期' },
+          { text: 'less,sass,scoped', link: '../Vue3/less,sass,scoped' },
           { text: '父子间的传值', link: '../Vue3/父子间的传值' },
+          { text: '全局组件,局部组件,递归组件', link: '../Vue3/全局组件,局部组件,递归组件' },
+          { text: '动态组件', link: '../Vue3/动态组件' },
+          { text: '插槽', link: '../Vue3/插槽' },
+          { text: '异步组件,代码分包,suspense', link: '../Vue3/异步组件,代码分包,suspense' },
         ]
       }
     ],
