@@ -12,7 +12,7 @@ hero:
       link: /TypeScript/基础类型
     - theme: alt
       text: 生活类
-      # link: /api-examples
+      # link: /Vue3/ref,Ref,reactive
 
 features:
   - title: TypeScript学习笔记
@@ -21,6 +21,8 @@ features:
     linkText: 查看详情
   - title: Vue3
     details: Vue3的学习记录
+    link: /Vue3/ref,Ref,reactive
+    linkText: 查看详情
   - title: 有趣的视频知识输入
     details: 一些视频的引发的感想的记录
 ---
