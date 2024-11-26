@@ -76,6 +76,9 @@ export default defineConfig({
           { text: '动态组件', link: '../Vue3/动态组件' },
           { text: '插槽', link: '../Vue3/插槽' },
           { text: '异步组件,代码分包,suspense', link: '../Vue3/异步组件,代码分包,suspense' },
+          { text: 'Teleport(传送组件)', link: '../Vue3/Teleport(传送组件)' },
+          { text: 'Transition(动画组件)', link: '../Vue3/Transition(动画组件)' },
+          { text: 'Provide/Inject(依赖注入)', link: '../Vue3/ProvideInject(依赖注入)' },
         ]
       }
     ],
