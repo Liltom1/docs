@@ -79,6 +79,12 @@ export default defineConfig({
           { text: 'Teleport(传送组件)', link: '../Vue3/Teleport(传送组件)' },
           { text: 'Transition(动画组件)', link: '../Vue3/Transition(动画组件)' },
           { text: 'Provide/Inject(依赖注入)', link: '../Vue3/ProvideInject(依赖注入)' },
+          { text: 'Mitt', link: '../Vue3/Mitt' },
+          { text: 'Tsx', link: '../Vue3/Tsx' },
+          { text: '自定义指令directive', link: '../Vue3/自定义指令directive' },
+          { text: '自定义hooks', link: '../Vue3/自定义hooks' },
+          { text: 'vue3定义全局函数与变量', link: '../Vue3/vue3定义全局函数与变量' },
+          { text: 'cssStyle完整新特性', link: '../Vue3/css中Style完整新特性' },
         ]
       }
     ],
