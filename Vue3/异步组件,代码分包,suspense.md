@@ -1,3 +1,8 @@
+---
+next:
+  text: 'Teleport(传送组件)'
+  link: '../Vue3/Teleport(传送组件)'
+---
 #### 异步组件,代码分包,suspense
 
 ##### 1.异步组件

@@ -1,3 +1,8 @@
+---
+next:
+  text: 'ProvideInject(依赖注入)'
+  link: '../Vue3/ProvideInject(依赖注入)'
+---
 #### Transition（动画组件）
 
 `vue`中的内置组件，在任何元素和组件添加进入或离开的过度效果

@@ -1,3 +1,8 @@
+---
+next:
+  text: 'Tsx'
+  link: '../Vue3/Tsx'
+---
 #### Mitt
 
 全局事件总线

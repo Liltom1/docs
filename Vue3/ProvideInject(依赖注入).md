@@ -1,3 +1,8 @@
+---
+next:
+  text: 'Mitt'
+  link: '../Vue3/Mitt'
+---
 #### Provide/Inject(依赖注入)
 
 由于父子组件嵌套过深导致利用defineProps传值不方便，提供方便传值方法

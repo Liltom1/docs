@@ -91,8 +91,8 @@ export default defineConfig({
           // { text: '函数式编程(h函数)', link: '../Vue3/css中Style完整新特性' },
           // { text: 'vue3.3新增了一些语法糖和宏', link: '../Vue3/css中Style完整新特性' },
           { text: '环境变量', link: '../Vue3/环境变量' },
-          { text: 'vue3性能优化', link: '../Vue3/css中Style完整新特性' },
-          { text: 'webComponents', link: '../Vue3/css中Style完整新特性' },
+          { text: 'vue3性能优化', link: '../Vue3/性能优化' },
+          { text: 'webComponents', link: '../Vue3/webComponents' },
           { text: 'proxy跨域', link: '../Vue3/css中Style完整新特性' },
           { text: 'pinia', link: '../Vue3/css中Style完整新特性' },
         ]

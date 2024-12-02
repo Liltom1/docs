@@ -1,3 +1,8 @@
+---
+next:
+  text: '自定义指令directive'
+  link: '../Vue3/自定义指令directive'
+---
 #### Tsx
 
 安装

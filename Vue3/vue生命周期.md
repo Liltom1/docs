@@ -1,4 +1,9 @@
-vue生命周期
+---
+next:
+  text: 'less,sass,scoped'
+  link: '../Vue3/less,sass,scoped'
+---
+#### vue生命周期
 
 一个组件从创建到销毁的一个过程
 

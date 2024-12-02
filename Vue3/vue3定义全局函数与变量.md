@@ -1,3 +1,8 @@
+---
+next:
+  text: 'css中Style完整新特性'
+  link: '../Vue3/css中Style完整新特性'
+---
 #### vue3定义全局函数与变量
 
 在main.ts文件

@@ -1,3 +1,8 @@
+---
+next:
+  text: 'computed'
+  link: '../Vue3/computed'
+---
 #### ``vue3``响应式原理
 
 ##### 1.监听数据的变化使用Proxy

@@ -1,3 +1,8 @@
+---
+next:
+  text: 'Transition(动画组件)'
+  link: '../Vue3/Transition(动画组件)'
+---
 #### Teleport(传送组件)
 
 使用vue中的内置组件`teleport`组件

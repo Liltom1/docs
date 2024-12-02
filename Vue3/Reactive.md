@@ -1,3 +1,8 @@
+---
+next:
+  text: 'vue3响应式原理'
+  link: '../Vue3/vue3响应式原理'
+---
 #### Reactive
 
 ##### 1.reactive()

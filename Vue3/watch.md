@@ -1,3 +1,8 @@
+---
+next:
+  text: 'vue生命周期'
+  link: '../Vue3/vue生命周期'
+---
 #### watch,watchEffect
 
 ##### 1.监听Ref 

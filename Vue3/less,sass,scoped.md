@@ -1,3 +1,8 @@
+---
+next:
+  text: '父子间的传值'
+  link: '../Vue3/父子间的传值'
+---
 #### less,sass,scoped
 
 ##### 1.``bem``架构
