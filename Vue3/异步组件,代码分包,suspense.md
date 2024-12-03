@@ -1,4 +1,7 @@
 ---
+prev:
+  text: '插槽'
+  link: '../Vue3/插槽'
 next:
   text: 'Teleport(传送组件)'
   link: '../Vue3/Teleport(传送组件)'

@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'Reactive'
+  link: '../Vue3/Reactive'
 next:
   text: 'computed'
   link: '../Vue3/computed'

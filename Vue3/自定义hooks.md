@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'ref,Ref,reactive'
+  link: '../TypeScript/ref,Ref,reactive'
 next:
   text: 'vue3定义全局函数与变量'
   link: '../Vue3/vue3定义全局函数与变量'

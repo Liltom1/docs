@@ -12,6 +12,7 @@ export default defineConfig({
         text: '知识类',
         items: [
           { text: 'TypeScript', link: '/TypeScript/基础类型' },
+          { text: 'Vue3', link: '/Vue3/ref,Ref,reactive' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
@@ -93,8 +94,8 @@ export default defineConfig({
           { text: '环境变量', link: '../Vue3/环境变量' },
           { text: 'vue3性能优化', link: '../Vue3/性能优化' },
           { text: 'webComponents', link: '../Vue3/webComponents' },
-          { text: 'proxy跨域', link: '../Vue3/css中Style完整新特性' },
-          { text: 'pinia', link: '../Vue3/css中Style完整新特性' },
+          { text: 'proxy跨域', link: '../Vue3/Proxy' },
+          { text: 'pinia', link: '../Vue3/Pinia' },
         ]
       }
     ],

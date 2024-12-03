@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'Teleport(传送组件)'
+  link: '../Vue3/Teleport(传送组件)'
 next:
   text: 'ProvideInject(依赖注入)'
   link: '../Vue3/ProvideInject(依赖注入)'

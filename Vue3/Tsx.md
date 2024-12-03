@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'Mitt'
+  link: '../Vue3/Mitt'
 next:
   text: '自定义指令directive'
   link: '../Vue3/自定义指令directive'

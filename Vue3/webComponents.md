@@ -1,4 +1,7 @@
 ---
+prev:
+  text: '性能优化'
+  link: '../Vue3/性能优化'
 next:
   text: 'computed'
   link: '../Vue3/computed'

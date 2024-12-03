@@ -1,3 +1,11 @@
+---
+prev:
+  text: 'webComponents'
+  link: '../Vue3/webComponents'
+next:
+  text: 'Pinia'
+  link: '../Vue3/Pinia'
+---
 #### Proxy
 
 ##### 1.跨域

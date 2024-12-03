@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'vue3定义全局函数与变量'
+  link: '../TypeScript/vue3定义全局函数与变量'
 next:
   text: 'eventLoop&nextTick'
   link: '../Vue3/eventLoop&nextTick'

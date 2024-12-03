@@ -1,3 +1,8 @@
+---
+prev:
+  text: 'Proxy'
+  link: '../Vue3/Proxy'
+---
 #### Pinia
 
 全局状态管理工具，与vuex作用相同
@@ -179,7 +184,7 @@ const changeText1 = () => {
 console.log(text.value, count.value, ' test')
 ```
 
-##### Actions 与 getter
+##### 4.Actions 与 getter
 
 action也支持同步异步
 
@@ -223,5 +228,154 @@ export const useTextStore = defineStore( Name.Test, {
     }
   }
 });
+```
+
+getters
+
+作用类似于computed 数据修饰并且有缓存
+
+普通函数形式
+
+```js
+ getters:{
+     newCurrent ():number {
+         return ++this.current
+     }
+  },
+```
+
+箭头函数不可使用this ，this指向已经改变
+
+```js
+    getters:{
+       newPrice:(state)=>  `$${state.user.price}`
+    },
+```
+
+互相调用
+
+```js
+    getters:{
+       newCurrent ():number | string {
+           return ++this.current + this.newName
+       },
+       newName ():string {
+           return `$-${this.name}`
+       }
+    },
+```
+
+##### 5.API
+
+- $reset 重置store状态
+
+```ts
+import { useTextStore } from './store/Text'; // [!code focus:31]
+
+const text = useTextStore()
+text.$patch({
+    text: 'hello',
+    count: 10
+  })
+test.$reset();
+```
+
+- $subscribe 订阅store的改变 类似watch
+
+```ts
+
+import { useTextStore } from './store/Text'; // [!code focus:31]
+
+const text = useTextStore()
+text.$patch({
+    text: 'hello',
+    count: 10
+  })
+
+text.$subscribe((args,state)=>{
+   console.log(args,state);
+   
+},{
+  detached:true//组件卸载之后还想调用 配置true
+                })
+```
+
+- $onAction 订阅action的调用
+
+```ts
+text.$onAction((args)=>{
+   console.log(args);
+   
+})
+```
+
+##### 6.pinia插件
+
+```vue
+const __piniaKey = '__PINIAKEY__'
+//定义兜底变量
+ 
+ 
+type Options = {
+   key?:string
+}
+//定义入参类型
+ 
+ 
+ 
+//将数据存在本地
+const setStorage = (key: string, value: any): void => {
+ 
+localStorage.setItem(key, JSON.stringify(value))
+ 
+}
+ 
+ 
+//存缓存中读取
+const getStorage = (key: string) => {
+ 
+return (localStorage.getItem(key) ? JSON.parse(localStorage.getItem(key) as string) : {})
+ 
+}
+ 
+ 
+//利用函数柯丽华接受用户入参
+const piniaPlugin = (options: Options) => {
+ 
+//将函数返回给pinia  让pinia  调用 注入 context
+return (context: PiniaPluginContext) => {
+ 
+const { store } = context;
+ 
+const data = getStorage(`${options?.key ?? __piniaKey}-${store.$id}`)
+ 
+store.$subscribe(() => {
+ 
+setStorage(`${options?.key ?? __piniaKey}-${store.$id}`, toRaw(store.$state));
+ 
+})
+ 
+//返回值覆盖pinia 原始值
+return {
+ 
+...data
+ 
+}
+ 
+}
+ 
+}
+ 
+ 
+//初始化pinia
+const pinia = createPinia()
+ 
+ 
+//注册pinia 插件
+pinia.use(piniaPlugin({
+ 
+key: "pinia"
+ 
+}))
 ```
 

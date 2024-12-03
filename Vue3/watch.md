@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'computed'
+  link: '../Vue3/computed'
 next:
   text: 'vue生命周期'
   link: '../Vue3/vue生命周期'

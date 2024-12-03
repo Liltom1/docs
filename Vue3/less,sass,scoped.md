@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'vue生命周期'
+  link: '../Vue3/vue生命周期'
 next:
   text: '父子间的传值'
   link: '../Vue3/父子间的传值'

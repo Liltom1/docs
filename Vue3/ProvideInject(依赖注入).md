@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'Transition(动画组件)'
+  link: '../Vue3/Transition(动画组件)'
 next:
   text: 'Mitt'
   link: '../Vue3/Mitt'

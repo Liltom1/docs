@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'css中Style完整新特性'
+  link: '../Vue3/css中Style完整新特性'
 next:
   text: 'H5适配'
   link: '../Vue3/H5适配'

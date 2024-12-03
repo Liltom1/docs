@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'ref,Ref,reactive'
+  link: '../TypeScript/ref,Ref,reactive'
 next:
   text: 'computed'
   link: '../Vue3/computed'

@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'ProvideInject(依赖注入)'
+  link: '../Vue3/ProvideInject(依赖注入)'
 next:
   text: 'Tsx'
   link: '../Vue3/Tsx'

@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'Tsx'
+  link: '../Vue3/Tsx'
 next:
   text: '自定义hooks'
   link: '../Vue3/自定义hooks'

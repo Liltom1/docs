@@ -1,4 +1,7 @@
 ---
+prev:
+  text: 'ref,Ref,reactive'
+  link: '../Vue3/ref,Ref,reactive'
 next:
   text: 'vue3响应式原理'
   link: '../Vue3/vue3响应式原理'

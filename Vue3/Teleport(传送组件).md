@@ -1,4 +1,7 @@
 ---
+prev:
+  text: '异步组件,代码分包,suspense'
+  link: '../Vue3/异步组件,代码分包,suspense'
 next:
   text: 'Transition(动画组件)'
   link: '../Vue3/Transition(动画组件)'
