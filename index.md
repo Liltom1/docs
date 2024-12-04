@@ -25,4 +25,6 @@ features:
     linkText: 查看详情
   # - title: 有趣的视频知识输入
   #   details: 一些视频的引发的感想的记录
+
+editLink: false
 ---
