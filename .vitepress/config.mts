@@ -15,6 +15,7 @@ export default defineConfig({
         items: [
           { text: 'TypeScript', link: '/TypeScript/基础类型' },
           { text: 'Vue3', link: '/Vue3/ref,Ref,reactive' },
+          { text: '网络(Network)', link: '/Network/Tcp' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
@@ -101,6 +102,16 @@ export default defineConfig({
             { text: 'webComponents', link: '/Vue3/webComponents' },
             { text: 'proxy跨域', link: '/Vue3/Proxy' },
             { text: 'pinia', link: '/Vue3/Pinia' },
+            { text: '面试相关', link: '/Vue3/第一阶段有关面试问题' },
+          ]
+        }
+      ],
+      '/Network':[
+        {
+          text: 'Network',
+          collapsed: false,
+          items: [
+            { text: 'Tcp', link: '/Network/Tcp' },
           ]
         }
       ]

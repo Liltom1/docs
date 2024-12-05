@@ -23,6 +23,10 @@ features:
     details: Vue3的学习记录
     link: /Vue3/ref,Ref,reactive
     linkText: 查看详情
+  - title: Network(网络)
+    details: 关于前端涉及网络相关的知识
+    link: /Network/Tcp
+    linkText: 查看详情
   # - title: 有趣的视频知识输入
   #   details: 一些视频的引发的感想的记录
 

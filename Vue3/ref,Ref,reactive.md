@@ -1,7 +1,7 @@
 ---
-prev:
-  text: '泛型工具2'
-  link: '../TypeScript/泛型工具2'
+# prev:
+#   text: '泛型工具2'
+#   link: '../Vue3/泛型工具2'
 next:
   text: 'Reactive'
   link: '../Vue3/Reactive'
