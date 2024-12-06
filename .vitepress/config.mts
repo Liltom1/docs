@@ -111,7 +111,9 @@ export default defineConfig({
           text: 'Network',
           collapsed: false,
           items: [
+            { text: 'OSI七层网络参考模型', link: '/Network/OSI七层网络参考模型' },
             { text: 'Tcp', link: '/Network/Tcp' },
+            { text: '实现HTTP服务', link: '/Network/实现HTTP服务' },
           ]
         }
       ]
