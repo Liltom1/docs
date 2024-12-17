@@ -114,6 +114,10 @@ export default defineConfig({
             { text: 'OSI七层网络参考模型', link: '/Network/OSI七层网络参考模型' },
             { text: 'Tcp', link: '/Network/Tcp' },
             { text: '实现HTTP服务', link: '/Network/实现HTTP服务' },
+            { text: 'Ajax', link: '/Network/Ajax' },
+            { text: 'Fetch', link: '/Network/Fetch' },
+            { text: '浏览器输入URL会发生什么', link: '/Network/浏览器输入URL会发生什么' },
+            { text: 'SSE', link: '/Network/SSE' },
           ]
         }
       ]
