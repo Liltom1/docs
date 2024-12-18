@@ -118,6 +118,7 @@ export default defineConfig({
             { text: 'Fetch', link: '/Network/Fetch' },
             { text: '浏览器输入URL会发生什么', link: '/Network/浏览器输入URL会发生什么' },
             { text: 'SSE', link: '/Network/SSE' },
+            { text: 'WebSocket', link: '/Network/WebSocket' },
           ]
         }
       ]
