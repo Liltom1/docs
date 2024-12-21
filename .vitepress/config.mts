@@ -15,7 +15,7 @@ export default defineConfig({
         items: [
           { text: 'TypeScript', link: '/TypeScript/基础类型' },
           { text: 'Vue3', link: '/Vue3/ref,Ref,reactive' },
-          { text: '网络(Network)', link: '/Network/Tcp' },
+          { text: '网络(Network)', link: '/Network/OSI七层网络参考模型' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
