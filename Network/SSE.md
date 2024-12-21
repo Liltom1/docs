@@ -1,3 +1,11 @@
+---
+next:
+  text: 'WebSocket'
+  link: '../Network/WebSocket'
+prev:
+  text: '浏览器输入URL会发生什么'
+  link: '../Network/浏览器输入URL会发生什么'
+---
 #### SSE
 
 定义：SSE（Server-Sent Events）是一种用于实现服务器主动向客户端推送数据的技术，也被称为“事件流”（Event Stream）。它基于 HTTP 协议，利用了其长连接特性，在客户端与服务器之间建立一条持久化连接，并通过这条连接实现服务器向客户端的实时数据推送。

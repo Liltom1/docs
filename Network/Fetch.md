@@ -1,3 +1,11 @@
+---
+next:
+  text: '浏览器输入URL会发生什么'
+  link: '../Network/浏览器输入URL会发生什么'
+prev:
+  text: 'Ajax'
+  link: '../Network/Ajax'
+---
 #### Fetch
 
 与ajax作用相同，fetch更加简单易用，多用于大型数据集和长时间运行的操作
@@ -34,6 +42,7 @@ fetch('http://localhost:3000/getUserInfo').then(res => {
 ##### 4.post
 
 ```js
+const abort = new AbortController()
 fetch('http://localhost:3000/api/post', {
         method:'POST',
         headers: {
@@ -62,6 +71,7 @@ fetch('http://localhost:3000/api/post', {
 ##### 5.中断请求
 
 ```js
+const abort = new AbortController()
 fetch('http://localhost:3000/api/post', {
         method:'POST',
         headers: {

@@ -1,3 +1,11 @@
+---
+next:
+  text: 'navigator.sendBeacon'
+  link: '../Network/navigator.sendBeacon'
+prev:
+  text: 'SSE'
+  link: '../Network/SSE'
+---
 #### WebSocket
 
 定义

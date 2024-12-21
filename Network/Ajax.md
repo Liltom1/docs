@@ -1,3 +1,11 @@
+---
+next:
+  text: 'Fetch'
+  link: '../Network/Fetch'
+prev:
+  text: '跨域'
+  link: '../Network/跨域'
+---
 #### Ajax
 
 ##### 1.定义
@@ -36,7 +44,7 @@ xhr.open('post', 'http://localhost:3000/api/upload',true)
 
 onreadystatechange 
 
-- readyState 0 未初始化，XMLHttpRequest 对象已经创建，但未调用 open 方法
+- readyState 0：未初始化，XMLHttpRequest 对象已经创建，但未调用 open 方法
 - readyState 1：已打开，open 方法已经被调用，但 send 方法未被调用
 - readyState 2：已发送，send 方法已经被调用，请求已经被服务器接收
 - readyState 3：正在接收，服务器正在处理请求并返回数据
