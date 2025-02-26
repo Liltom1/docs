@@ -1,3 +1,11 @@
+---
+next:
+  text: 'SSE'
+  link: '../Network/SSE'
+prev:
+  text: 'Fetch'
+  link: '../Network/Fetch'
+---
 #### 浏览器输入URL会发生什么
 
 ##### 认识URL
@@ -46,6 +54,8 @@ options请求：遇到跨域情况先进行options预检请求，或者自定义
 
 缓存服务器提供的一些资源（静态资源） 后台配置 可以设置缓存的事件 cache-control 与 expires
 
+cache-control优先级更高
+
 缓存的方法有两种
 
 硬盘缓存
@@ -90,6 +100,8 @@ options请求：遇到跨域情况先进行options预检请求，或者自定义
 解析JavaScript
 
 `V8`引擎去解析 `js`代码先经过解析器解析成`AST`抽象语法树 ->生成字节码->再通过解释器边解析边执行（`JIT`）->编译器->将字节码解释成机器码010101再到`cpu`去运行
+
+还有一个AOT，直接编译成二进制的，苹果/java9 使用
 
 生成字节码的原因是兼容各种操作系统与硬件
 

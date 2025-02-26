@@ -15,7 +15,7 @@ export default defineConfig({
         items: [
           { text: 'TypeScript', link: '/TypeScript/基础类型' },
           { text: 'Vue3', link: '/Vue3/ref,Ref,reactive' },
-          { text: '网络(Network)', link: '/Network/Tcp' },
+          { text: '网络(Network)', link: '/Network/OSI七层网络参考模型' },
           { text: '聊天demo', link: '/聊天demo' },
         ]
       },
@@ -115,6 +115,17 @@ export default defineConfig({
             { text: 'OSI七层网络参考模型', link: '/Network/OSI七层网络参考模型' },
             { text: 'Tcp', link: '/Network/Tcp' },
             { text: '实现HTTP服务', link: '/Network/实现HTTP服务' },
+            { text: '跨域', link: '/Network/跨域' },
+            { text: 'Ajax', link: '/Network/Ajax' },
+            { text: 'Fetch', link: '/Network/Fetch' },
+            { text: '浏览器输入URL会发生什么', link: '/Network/浏览器输入URL会发生什么' },
+            { text: 'SSE', link: '/Network/SSE' },
+            { text: 'WebSocket', link: '/Network/WebSocket' },
+            { text: 'navigator.sendBeacon', link: '/Network/navigator.sendBeacon' },
+            { text: 'HTTPS', link: '/Network/HTTPS' },
+            { text: 'JWT', link: '/Network/JWT' },
+            { text: '网络状态&强网弱网', link: '/Network/网络状态&强网弱网' },
+            { text: 'XSS跨站脚本攻击', link: '/Network/XSS跨站脚本攻击' },
           ]
         }
       ]
