@@ -17,6 +17,7 @@ export default defineConfig({
           { text: 'Vue3', link: '/Vue3/ref,Ref,reactive' },
           { text: '网络(Network)', link: '/Network/OSI七层网络参考模型' },
           { text: '聊天demo', link: '/聊天demo' },
+          { text: 'webpack', link: '/webpack' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
