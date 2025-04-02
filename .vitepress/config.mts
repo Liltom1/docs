@@ -18,6 +18,7 @@ export default defineConfig({
           { text: '网络(Network)', link: '/Network/OSI七层网络参考模型' },
           { text: '聊天demo', link: '/聊天demo' },
           { text: 'webpack', link: '/webpack' },
+          { text: 'React', link: '/React/TSX语法' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
@@ -129,7 +130,18 @@ export default defineConfig({
             { text: 'XSS跨站脚本攻击', link: '/Network/XSS跨站脚本攻击' },
           ]
         }
-      ]
+      ],
+      '/React':[{
+        text: 'React',
+        collapsed: false,
+        items: [
+          { text: 'TSX语法', link: '/React/TSX语法' },
+          { text: 'Babel', link: '/React/Babel' },
+          { text: '组件', link: '/React/组件' },
+          { text: '组件间的通信', link: '/React/组件间的通信' },
+          { text: 'useState', link: '/React/useState' },
+        ]
+      }]
     },
     //侧边栏文字更改(移动端)
     sidebarMenuLabel: '目录',
