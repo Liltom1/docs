@@ -19,6 +19,7 @@ export default defineConfig({
           { text: '聊天demo', link: '/聊天demo' },
           { text: '埋点', link: '/SDK/埋点相关知识' },
           { text: 'webpack', link: '/webpack' },
+          { text: 'CICD', link: '/CICD' },
           { text: 'React', link: '/React/TSX语法' },
         ]
       },
