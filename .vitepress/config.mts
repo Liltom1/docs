@@ -142,6 +142,9 @@ export default defineConfig({
           { text: '组件', link: '/React/组件' },
           { text: '组件间的通信', link: '/React/组件间的通信' },
           { text: 'useState', link: '/React/useState' },
+          { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
+          { text: 'useDeferredValue', link: '/React/useDeferredValue' },
+          { text: 'useEffect', link: '/React/useEffect' },
         ]
       }]
     },
