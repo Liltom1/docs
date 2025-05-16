@@ -145,6 +145,11 @@ export default defineConfig({
           { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
           { text: 'useDeferredValue', link: '/React/useDeferredValue' },
           { text: 'useEffect', link: '/React/useEffect' },
+          { text: 'useRef', link: '/React/useRef' },
+          { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
+          { text: 'useContext', link: '/React/useContext' },
+          { text: 'useMemo', link: '/React/useMemo' },
+          { text: 'useCallback', link: '/React/useCallback' },
         ]
       }]
     },
