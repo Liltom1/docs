@@ -19,6 +19,8 @@ export default defineConfig({
           { text: '聊天demo', link: '/聊天demo' },
           { text: '埋点', link: '/SDK/埋点相关知识' },
           { text: 'webpack', link: '/webpack' },
+          { text: 'CICD', link: '/CICD' },
+          { text: 'React', link: '/React/TSX语法' },
         ]
       },
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
@@ -130,7 +132,26 @@ export default defineConfig({
             { text: 'XSS跨站脚本攻击', link: '/Network/XSS跨站脚本攻击' },
           ]
         }
-      ]
+      ],
+      '/React':[{
+        text: 'React',
+        collapsed: false,
+        items: [
+          { text: 'TSX语法', link: '/React/TSX语法' },
+          { text: 'Babel', link: '/React/Babel' },
+          { text: '组件', link: '/React/组件' },
+          { text: '组件间的通信', link: '/React/组件间的通信' },
+          { text: 'useState', link: '/React/useState' },
+          { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
+          { text: 'useDeferredValue', link: '/React/useDeferredValue' },
+          { text: 'useEffect', link: '/React/useEffect' },
+          { text: 'useRef', link: '/React/useRef' },
+          { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
+          { text: 'useContext', link: '/React/useContext' },
+          { text: 'useMemo', link: '/React/useMemo' },
+          { text: 'useCallback', link: '/React/useCallback' },
+        ]
+      }]
     },
     //侧边栏文字更改(移动端)
     sidebarMenuLabel: '目录',
