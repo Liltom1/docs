@@ -20,6 +20,8 @@ export default defineConfig({
           { text: '埋点', link: '/SDK/埋点相关知识' },
           { text: 'webpack', link: '/webpack' },
           { text: 'CICD', link: '/CICD' },
+          { text: '大文件上传', link: '/BigFileUpload/大文件上传' },
+          { text: 'Npm相关', link: '/Npm相关/发布npm包' },
           { text: 'React', link: '/React/TSX语法' },
         ]
       },
