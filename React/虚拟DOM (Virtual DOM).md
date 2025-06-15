@@ -7,7 +7,6 @@ Virtual DOM 就是用JavaScript对象去描述一个DOM结构，虚拟DOM不是�
 
 2. 跨平台性：虚拟 DOM 是一个与平台无关的概念，它可以映射到不同的渲染目标，比如浏览器的 DOM 或者移动端`(React Native)`的原生 UI。
 
-<img src='./image.png' width='100%' />
 
 
 ## 实现简易虚拟DOM
@@ -130,7 +129,6 @@ react内部有两颗树维护着两个状态：一个是`fiber tree`，一个是
 
 并且把每一段任务插入`requestIdleCallback` 如图
 
-![alt text](task.png)
 
 ## diff算法
 
@@ -152,8 +150,6 @@ A -> B -> C -> D
 1. {`A B C` D} 他会从map里面去找能够复用的节点也就是 `A C B` 进行复用
 2. 如果{A B C D} 这个结构没有出现`E`那么说明是新增了创建新的fiber结构
 3. 如果{A B C `D`} 旧节点存在 { A C B E} 新节点没有存在那么说明是删除了
-
-![alt text](diff.png)
 
 ## 代码实现 vDom Fiber Diff 完整版
 
