@@ -163,7 +163,7 @@ export default defineConfig({
     //手机端深浅模式文字修改
     darkModeSwitchLabel: '深浅模式', 
     footer:{
-      copyright: 'Copyright © 2024-2024 present Evan You', 
+      copyright: 'Copyright © 2024-2025 present Evan You', 
     }
   },
   
