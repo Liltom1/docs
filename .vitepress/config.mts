@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  
+
   title: "Dumbledore's Pensieve",
   description: "A VitePress Site",
   themeConfig: {
@@ -28,9 +28,9 @@ export default defineConfig({
       // { text: 'TypeScript', link: '/TypeScript/基础类型' }
     ],
     //页脚文字
-    docFooter:{
-      prev:'上一页',
-      next:'下一页'
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     },
     //右边栏目录
     outline: {
@@ -38,21 +38,21 @@ export default defineConfig({
       label: "目录",
     },
     //最后修改时间
-    lastUpdated:{
-      text:'最后更改时间',
-      formatOptions:{
-        dateStyle:'full',
-        timeStyle:'full'
+    lastUpdated: {
+      text: '最后更改时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'full'
       }
     },
     // 返回顶部label
     returnToTopLabel: "返回顶部",
     //本地搜索
-    search:{
-      provider:'local'
+    search: {
+      provider: 'local'
     },
     sidebar: {
-      '/TypeScript':[
+      '/TypeScript': [
         {
           text: 'TypeScript',
           collapsed: false,
@@ -73,7 +73,7 @@ export default defineConfig({
           ]
         },
       ],
-      '/Vue3':[
+      '/Vue3': [
         {
           text: 'Vue3',
           collapsed: false,
@@ -113,7 +113,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/Network':[
+      '/Network': [
         {
           text: 'Network',
           collapsed: false,
@@ -135,25 +135,89 @@ export default defineConfig({
           ]
         }
       ],
-      '/React':[{
-        text: 'React',
+      '/React': [{
+        text: '准备',
         collapsed: false,
         items: [
+          { text: '环境搭建', link: '/React/环境搭建' },
           { text: 'TSX语法', link: '/React/TSX语法' },
           { text: 'Babel', link: '/React/Babel' },
+          { text: 'Vdom与简单原理实现', link: '/React/虚拟DOM (Virtual DOM)' },
+        ]
+      },
+      {
+        text: '组件',
+        collapsed: false,
+        items: [
           { text: '组件', link: '/React/组件' },
           { text: '组件间的通信', link: '/React/组件间的通信' },
-          { text: 'useState', link: '/React/useState' },
-          { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
-          { text: 'useDeferredValue', link: '/React/useDeferredValue' },
-          { text: 'useEffect', link: '/React/useEffect' },
-          { text: 'useRef', link: '/React/useRef' },
-          { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
-          { text: 'useContext', link: '/React/useContext' },
-          { text: 'useMemo', link: '/React/useMemo' },
-          { text: 'useCallback', link: '/React/useCallback' },
+          { text: '受控组件', link: '/React/受控组件与非受控组件' },
         ]
-      }]
+      },
+      {
+        text: 'react中合理使用css',
+        collapsed: false,
+        items: [
+          { text: 'css_modules', link: '/React/css_modules' },
+        ]
+      },
+      {
+        text: 'Hooks',
+        collapsed: false,
+        items: [
+          {
+            text: '数据驱动',
+            items: [
+              { text: 'useState', link: '/React/useState' },
+              { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
+              { text: 'useDeferredValue', link: '/React/useDeferredValue' },
+            ]
+          },
+          {
+            text: '副作用函数',
+            items: [
+              { text: 'useEffect', link: '/React/useEffect' },
+            ]
+          },
+          {
+            text: '状态传递',
+            items: [
+              { text: 'useRef', link: '/React/useRef' },
+              { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
+              { text: 'useContext', link: '/React/useContext' },
+            ]
+          },
+          {
+            text: '状态派生与性能优化',
+            items: [
+              { text: 'useRef', link: '/React/useRef' },
+              { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
+              { text: 'useContext', link: '/React/useContext' },
+            ]
+          },
+          {
+            text: '工具Hooks',
+            items: [
+              { text: 'useId', link: '/React/useId' },
+            ]
+          },
+          {
+            text: '自定义Hooks',
+            items: [
+              { text: '自定义Hooks-1', link: '/React/自定义Hooks' },
+              { text: '自定义Hooks-2', link: '/React/自定义Hooks2' },
+            ]
+          },
+        ]
+      },
+      {
+        text: 'Router',
+        collapsed: false,
+        items: [
+          { text: 'React-router', link: '/React/React-router' },
+        ]
+      },
+      ]
     },
     //侧边栏文字更改(移动端)
     sidebarMenuLabel: '目录',
@@ -161,14 +225,14 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
     //手机端深浅模式文字修改
-    darkModeSwitchLabel: '深浅模式', 
-    footer:{
-      copyright: 'Copyright © 2024-2025 present Evan You', 
+    darkModeSwitchLabel: '深浅模式',
+    footer: {
+      copyright: 'Copyright © 2024-2025 present Evan You',
     }
   },
-  
-  outDir:"docs",
-  base:'/docs/',
+
+  outDir: "docs",
+  base: '/docs/',
   ignoreDeadLinks: false //关闭忽略死链，不配置即可，非常不建议设置为true
   // srcDir:''
 })
