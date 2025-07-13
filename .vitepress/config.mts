@@ -152,6 +152,9 @@ export default defineConfig({
           { text: '组件', link: '/React/组件' },
           { text: '组件间的通信', link: '/React/组件间的通信' },
           { text: '受控组件', link: '/React/受控组件与非受控组件' },
+          { text: '异步组件', link: '/React/suspense' },
+          { text: '组件实战', link: '/React/practice' },
+          { text: '高阶组件', link: '/React/hoc' },
         ]
       },
       {
@@ -177,6 +180,7 @@ export default defineConfig({
             text: '副作用函数',
             items: [
               { text: 'useEffect', link: '/React/useEffect' },
+              { text: 'useLayoutEffect', link: '/React/useLayoutEffect' },
             ]
           },
           {
@@ -193,6 +197,8 @@ export default defineConfig({
               { text: 'useRef', link: '/React/useRef' },
               { text: 'useImperativeHandle', link: '/React/useImperativeHandle' },
               { text: 'useContext', link: '/React/useContext' },
+              { text: 'useMemo', link: '/React/useMemo' },
+              { text: 'useCallback', link: '/React/useCallback' },
             ]
           },
           {
