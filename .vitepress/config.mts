@@ -174,6 +174,7 @@ export default defineConfig({
               { text: 'useState', link: '/React/useState' },
               { text: 'useSyncExternalStore', link: '/React/useSyncExternalStore' },
               { text: 'useDeferredValue', link: '/React/useDeferredValue' },
+              { text: 'useReducer', link: '/React/useReducer' },
             ]
           },
           {
@@ -223,6 +224,13 @@ export default defineConfig({
           { text: 'React-router', link: '/React/React-router' },
         ]
       },
+        {
+          text: 'react-redux',
+          collapsed: false,
+          items: [
+            { text: 'React-Redux', link: '/React/React-Redux' },
+          ]
+        },
       ]
     },
     //侧边栏文字更改(移动端)
